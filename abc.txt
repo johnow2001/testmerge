@@ -17,7 +17,7 @@ public class DressPage {
     WebDriver driver;
 
     public DressPage(WebDriver driver) {
-	
+	//back to noraml
         this.driver = driver;
         PageFactory.initElements(driver, this);
 	PageFactory.initElements(driver, this);
