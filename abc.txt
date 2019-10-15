@@ -18,6 +18,8 @@ public class DressPage {
 
     public DressPage(WebDriver driver) {
         this.driver = driver;
+	@FindAll(@FindBy(how = How.CSS, using = ".right-block .content_price .price"))
+    private List<WebElement> prices;
         PageFactory.initElements(driver, this);
     }
 
