@@ -18,7 +18,7 @@ public class DressPage {
 
     public DressPage(WebDriver driver) {
 	//back to noraml
-	//push 123
+	//push 1234
         this.driver = driver;
         PageFactory.initElements(driver, this);
 	PageFactory.initElements(driver, this);
