@@ -25,6 +25,15 @@ public class DressPage {
 	xyz = 12334
 	abc = 334304
         this.wrong.PageFactory.initElements(driver, this);
+ //merge fix again
+	Select sort = new Select(sortBy);
+        sort.selectByValue("price:desc");
+	Select sort = new Select(sortBy);
+        sort.selectByValue("price:desc");Select sort = new Select(sortBy);
+        sort.selectByValue("price:desc");
+	this.driver = driver;
+	xyz = 12334
+	abc = 334304
 
     }
 
