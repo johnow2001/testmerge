@@ -17,23 +17,10 @@ public class DressPage {
     WebDriver driver;
 
     public DressPage(WebDriver driver) {
-	//merge conflict resolved
+	
         this.driver = driver;
-	@FindAll(@FindBy(how = How.CSS, using = ".right-block .content_price .price"))
-    private List<WebElement> prices;
         PageFactory.initElements(driver, this);
-	xyz = 12334
-	abc = 334304
-        this.wrong.PageFactory.initElements(driver, this);
- //merge fix again
-	Select sort = new Select(sortBy);
-        sort.selectByValue("price:desc");
-	Select sort = new Select(sortBy);
-        sort.selectByValue("price:desc");Select sort = new Select(sortBy);
-        sort.selectByValue("price:desc");
-	this.driver = driver;
-	xyz = 12334
-	abc = 334304
+	PageFactory.initElements(driver, this);
 
     }
 
