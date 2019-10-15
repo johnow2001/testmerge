@@ -21,6 +21,11 @@ public class DressPage {
 	xyz = 12334
 	abc = 334304
         this.wrong.PageFactory.initElements(driver, this);
+	Select sort = new Select(sortBy);
+        sort.selectByValue("price:desc");
+	Select sort = new Select(sortBy);
+        sort.selectByValue("price:desc");Select sort = new Select(sortBy);
+        sort.selectByValue("price:desc");
     }
 
     //correct item as there are two prices
