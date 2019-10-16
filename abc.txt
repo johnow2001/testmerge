@@ -22,6 +22,8 @@ public class DressPage {
         PageFactory.initElements(driver, this);
 	PageFactory.initElements(driver, this);
 	
+	//should conflict!!!!!!!!!
+	
     }
 
     //correct item as there are two prices
