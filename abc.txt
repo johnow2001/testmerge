@@ -17,15 +17,9 @@ public class DressPage {
     WebDriver driver;
 
     public DressPage(WebDriver driver) {
-	//test
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-        //padding
-	abc = 12 PageFactory.initElements(driver, this);
-	//padding
-	abc = 12 PageFactory.initElements(driver, this);  //abc
-	abc = 12 PageFactory.initElements(driver, this);
-	
+
+    this.driver = driver;
+    PageFactory.initElements(driver, this);
     }
 
     //correct item as there are two prices
