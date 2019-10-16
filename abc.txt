@@ -24,6 +24,7 @@ public class DressPage {
 	PageFactory.initElements(driver, this);
 	//work with rebasing
         //r1
+        //r2
 
     }
 
