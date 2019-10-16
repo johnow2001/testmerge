@@ -17,17 +17,11 @@ public class DressPage {
     WebDriver driver;
 
     public DressPage(WebDriver driver) {
-	//back to noraml
-        //temp
+	
         this.driver = driver;
         PageFactory.initElements(driver, this);
 	PageFactory.initElements(driver, this);
-	//work with rebasing
-        //r1
-        //r2 //r3 //r4 //r5  //r6
-
-        //on master
-
+	
     }
 
     //correct item as there are two prices
