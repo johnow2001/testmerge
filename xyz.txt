@@ -19,6 +19,7 @@ public class DressPage {
     public DressPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
+        //comment
     }
 
     //correct item as there are two prices
