@@ -19,7 +19,9 @@ public class DressPage {
     public DressPage(WebDriver driver) {
 	
         this.driver = driver;
+	//should conflict!!!!!!!!!
         PageFactory.initElements(driver, this);
+	//should conflict!!!!!!!!!
 	PageFactory.initElements(driver, this);
 	
 	//should conflict!!!!!!!!!
