@@ -23,6 +23,8 @@ public class DressPage {
         //padding
 	abc = 12 PageFactory.initElements(driver, this);
 	//padding
+	abc = 12 PageFactory.initElements(driver, this);  //abc
+	abc = 12 PageFactory.initElements(driver, this);
 	
     }
 
